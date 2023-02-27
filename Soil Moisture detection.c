@@ -14,11 +14,11 @@ void loop() {
   
   if(sensorvalue == 1){
   Serial.println("Soil needs water");
+    digitalWrite(buzzer,HIGH);
   delay(100);
   }
   else{
     Serial.println("Soil is moisturized");
-    digitalWrite(buzzer,HIGH);
       delay(100);
   }
 }
