@@ -1,4 +1,4 @@
-int sensorvalue = 0; // 0 means Soil having moisture
+int sensorvalue = 0; 
 int buzzer = 6;
 
 void setup() {
