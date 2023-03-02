@@ -127,24 +127,28 @@ void loop() {
   delay(100);
   if(sensorvalue <33){
     Serial.print(" Very Good air quality");
+    digitalWrite(buzzer,LOW);
     display.setCursor(0,30);
     display.setTextSize(1);
     display.print("Very Good air quality");
     }
     else if(sensorvalue <=66){
       Serial.println("Good air quality");
+      digitalWrite(buzzer,LOW);
       display.setCursor(0,30);
       display.setTextSize(1);
       display.print("Good air quality");
       }
       else if(sensorvalue <=99){
         Serial.println("Normal air quality");
+        digitalWrite(buzzer,LOW);
         display.setCursor(0,30);
         display.setTextSize(1);
         display.print("Normal air quality");
         }
         else if(sensorvalue <=149){
         Serial.println("Poor air quality");
+        digitalWrite(buzzer,LOW);  
         display.setCursor(0,30);
         display.setTextSize(1);
         display.print("Poor air quality");
