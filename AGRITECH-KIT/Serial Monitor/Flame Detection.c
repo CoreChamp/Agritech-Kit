@@ -21,6 +21,7 @@ void loop() {
   }
   else{
     Serial.println("No Flames");
+    digitalWrite(buzzer,LOW);
       delay(100);
   }
 }
