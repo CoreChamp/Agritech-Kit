@@ -19,6 +19,7 @@ void loop() {
   }
   else{
     Serial.println("Soil is moisturized");
+    digitalWrite(buzzer,LOW);
       delay(100);
   }
 }
