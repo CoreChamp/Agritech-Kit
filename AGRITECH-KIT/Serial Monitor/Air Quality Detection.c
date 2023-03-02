@@ -16,15 +16,19 @@ void loop() {
 
   if(sensorvalue <33){
     Serial.print(" Very Good air quality");
+    digitalWrite(buzzer,LOW);
     }
     else if(sensorvalue <=66){
       Serial.println("Good air quality");
+      digitalWrite(buzzer,LOW);
       }
       else if(sensorvalue <=99){
         Serial.println("Normal air quality");
+        digitalWrite(buzzer,LOW);
         }
         else if(sensorvalue <=149){
         Serial.println("Poor air quality");
+        digitalWrite(buzzer,LOW);  
         }
         else if(sensorvalue <=200){
         Serial.println("Very Poor air quality");
