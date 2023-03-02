@@ -21,6 +21,7 @@ void loop() {
   }
   else{
     Serial.println("NOT RAINING");
+    digitalWrite(buzzer,LOW);
       delay(100);
   }
 }
