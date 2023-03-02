@@ -143,7 +143,8 @@ void loop() {
     display.display();
      delay(2000); // Pause for 2 seconds
   // Clear the buffer.
-  display.clearDisplay();    
+  display.clearDisplay();
+    digitalWrite(MotorPin, LOW);
     }
 
   delay(1000);  // Take a reading every second for testing
