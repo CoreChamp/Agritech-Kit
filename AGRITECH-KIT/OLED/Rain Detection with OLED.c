@@ -133,6 +133,7 @@ void loop() {
   }
   else{
     Serial.println("NO RAIN");
+    digitalWrite(buzzer,LOW);
     display.setCursor(20,30);
     display.setTextSize(2);
     display.print("NO RAIN");
