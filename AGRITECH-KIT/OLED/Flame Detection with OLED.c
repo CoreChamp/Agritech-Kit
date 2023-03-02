@@ -136,6 +136,7 @@ void loop() {
   }
   else{
     Serial.println("No Flames");
+    digitalWrite(buzzer,LOW);
     display.setCursor(10,30);
     display.setTextSize(2);
     display.print("NO FLAMES");
