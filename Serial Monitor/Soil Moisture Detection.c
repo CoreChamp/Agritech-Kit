@@ -1,5 +1,5 @@
 int sensorvalue = 0; // 0 means Soil having moisture
-int buzzer = 6;
+int motorpin = 13;
 
 void setup() {
   pinMode(10,INPUT);
@@ -14,12 +14,12 @@ void loop() {
   
   if(sensorvalue == 1){
   Serial.println("Soil needs water");
-    digitalWrite(buzzer,HIGH);
+    digitalWrite(motorpin,HIGH);
   delay(100);
   }
   else{
     Serial.println("Soil is moisturized");
-    digitalWrite(buzzer,LOW);
+    digitalWrite(motorpin,LOW);
       delay(100);
   }
 }
