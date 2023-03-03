@@ -1,5 +1,5 @@
 int sensorvalue = 0; // 0 means Soil having moisture
-int motorpin = 13;
+int motorpin = 3;
 
 void setup() {
   pinMode(10,INPUT);
