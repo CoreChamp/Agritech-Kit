@@ -1,6 +1,6 @@
 /* Fill-in information from Blynk Device Info here */
 #define BLYNK_TEMPLATE_ID "TMPLAQTecbqy"
-#define BLYNK_TEMPLATE_NAME "DHT11"
+#define BLYNK_TEMPLATE_NAME "corechamp"
 #define BLYNK_AUTH_TOKEN "EAQVIFIeZ_1IMYe8ktPaq_iRwdJQCADy"
 
 #define BLYNK_PRINT Serial
