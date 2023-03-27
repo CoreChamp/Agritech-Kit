@@ -4,7 +4,7 @@ int motorpin = 3;
 void setup() {
   pinMode(10,INPUT);
   Serial.begin(9600);
-  pinMode(buzzer,OUTPUT);
+  pinMode(motorpin,OUTPUT);
 }
 
 void loop() {
